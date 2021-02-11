@@ -1,0 +1,35 @@
+window.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+});
+
+element.addEventListener("click", Start transaction);
+
+function Start transaction() {
+  alert ("Functionality has not yet been implemented!");
+}
+
+element.addEventListener("click1", View products);
+
+function View products() {
+  alert ("Hello World!");  // need to modify
+}
+
+element.addEventListener("click2", Create employee);
+
+function View products() {
+  alert ("Hello World!");  // need to modify
+}
+
+element.addEventListener("click3", Sales report);
+
+function Start transaction() {
+  alert ("Functionality has not yet been implemented!");
+}
+
+element.addEventListener("click3", Cashier report);
+
+function Start transaction() {
+  alert ("Functionality has not yet been implemented!");
+}
+
+
