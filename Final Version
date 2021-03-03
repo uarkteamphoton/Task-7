@@ -1,0 +1,46 @@
+// From Commit v2 - 2nd week progress
+
+window.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+});
+
+document.getElementById("button0").addEventListener("click", Start_transaction);
+
+function Start_transaction() {
+  alert ("Functionality has not yet been implemented!");
+}
+
+document.getElementById("button1").addEventListener("click", View_products);
+
+function View_products() {
+  return document.getElementById ("viewProductsButton");
+}
+
+document.getElementById("button2").addEventListener("click", Create_employee);
+
+function Create_employee() {
+  return document.getElementById("createEmployeeButton");
+}
+
+document.getElementById("button3").addEventListener("click", Sales_report);
+
+function Sales_report() {
+  alert ("Functionality has not yet been implemented!");
+}
+
+document.getElementById("button4").addEventListener("click", Cashier_report);
+
+function Cashier_report() {
+  alert ("Functionality has not yet been implemented!");
+}
+
+/* Need to Implement this:
+•	On page load[1], define a “click” event handler[2] for the sign out image when defined
+◦	Should be defined in a common module that can be accessed from each of the client-side modules (a view/script(s)/style(s) triplet)
+▪	Probably master.js
+◦	Should make an HTTP request, via AJAX[5], to the server to clear the active user
+▪	Perform a DELETE request[6,7]
+◦	Redirect[8] to the Sign In view upon completion of the request
+
+I need assistance whenever sign in task is completed to link both tasks. 
+*/ 
